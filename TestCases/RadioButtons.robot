@@ -1,8 +1,8 @@
 *** Settings ***
 Documentation    Suite description
-Library       SeleniumLibrary
-Test Setup    Setup Test
-Test Teardown   Teardown Test
+Library           SeleniumLibrary
+Test Setup        Setup Test
+Test Teardown     Teardown Test
 
 *** Variables ***
 ${url}          http://www.practiceselenium.com/practice-form.html
